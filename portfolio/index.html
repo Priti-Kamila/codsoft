@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style> 
+    *{
+        margin:0;
+        padding:0;
+    }
+
+
+    body{
+        background-color:  rgb(0, 0, 33);
+        color:white;
+        font-family:"poppins",sans-serif;
+    }
+    nav{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        height:97px;
+        background-color: blueviolet;
+    }
+    nav ul{
+        display:flex;
+        justify-content:center ;
+       
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0 23px;
+    }
+    nav ul li a{
+        text-decoration: none;
+       color:white;
+    }
+    nav ul li a:hover{
+        color:rgb(194, 131, 30); 
+        font-size: 1.02rem;      
+    }
+    main hr{
+        border:0;
+        background-color: #9c97f1;
+        height:1.2px;
+        margin:40px 80px;
+    }
+    .left{
+        font-size: 2rem;
+    }
+    .firstsection{
+        display:flex;
+        justify-content: space-around;
+        margin:23px 0;
+    }
+    .firstsection div{
+       width:30%;
+    }
+    .leftsection{
+        background-color: ;
+        font-size:1.5rem ;
+        width:34px;
+    }
+       
+    .leftsection .btn{
+      padding:12px;
+      background: rgb(68, 68, 149);
+      color:white;
+      border: 2px solid white;
+      border-radius:6px ;
+      font-size: 20px;
+      cursor: pointer;
+
+    }
+    .leftsection .button{
+        padding:   50px;
+    }
+    .rightsection img{
+        width:80%;
+        margin:50px 0;
+       
+    }
+    .purple{
+      color: blueviolet;  
+    }
+    #element{
+        color: rgb(97, 171, 160);
+    }
+    .Aboutsection{
+        max-width:50vw ;
+        margin:auto;
+        height:80vh;
+    }
+    .Aboutsection h1{
+        font-size: 1.9rem;
+    }
+    .Aboutsection .box{
+        background:white ;
+        width:80vw;
+        height:2px;
+        margin:56px 0;
+        display:flex;
+    }
+    .Aboutsection .vertical{
+        height:93px;
+        width:1px;
+    
+        background-color: white;
+        margin: 0 100px;
+
+    }
+    .image-top{
+        width:80px;
+        position:relative;
+        top:-52px;
+        left:-9px;
+    }
+    .image-2{
+        width:80px;
+        position:relative;
+        top:-85px;
+        left:-9px;
+    }
+    .vertical-title{
+        position: relative;
+        top:85px;
+        width:200px;
+        
+
+    }
+    footer{
+        background-color: rgb(220, 139, 220);
+        height: 233px;
+    }
+   
+    .footer{
+    display:flex;
+    padding:23px 122px;
+    justify-content:space-evenly ;
+   }
+  
+
+
+    
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"> Priti Kamila</div>
+            <div class="right">
+            <ul>
+                <li><a href="/"> Home</a></li>
+                <li><a href="/"> About</a></li>
+                <li><a href="/"> Skills</a></li>
+                <li><a href="/"> Projects</a><li>
+                <li><a href="/"> Resume</a></li>
+                <li><a href="/"> Contact Me</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main> 
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is<span class="purple" > </span>Priti
+                <div> and i am a Passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn"> visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="port.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="Aboutsection">
+            <h1>Skills:</h1>
+            <div class="box">
+                <div class="vertical ">
+                    <img class="image-top" src="image.jpg" alt="">
+                    <div class="vertical-text">
+                          HTML, CSS, JAVA SCRIPT
+                    </div>
+                  
+                </div>
+                <div class="vertical">
+                    <img class="image-2" src="pythonimage.jpeg" alt="">
+                    <div class="vertical-text">
+                       PYTHON programming language
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-2" src="cimage.png" alt="">
+                    <div class="vertical-text">
+                       C programming language
+                    </div>  
+                </div>
+                <div class="vertical">
+                    <img class="image-2" src="webimage.jpeg" alt="">
+                    <div class="vertical-text">
+                         Web Designer
+                    </div>  
+                </div>
+
+            </div>
+            
+            
+        </section>
+    </main>
+    <footer> 
+        <div class="footer">
+            <div class=" footer-first">
+                <h3> Priti's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Contact Me</li>
+                    <li>Resume</li>
+                    <li>Project</li>
+                </ul>
+            </div>
+            <div class="text-center">
+              www.pritisportfolio.com |  all rights reserved
+            </div>
+        </div>
+        
+    </footer>
+   
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+       <script> 
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','Video Editor','Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+
+    </script>
+    
+</body>
+</html>
